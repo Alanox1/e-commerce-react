@@ -1,0 +1,57 @@
+.aside{
+    padding: 0px 2rem;
+    padding-right: 0;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.aside_titulo{
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.aside_nav{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.aside_ul li{
+    list-style: none;
+    margin: 0;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.aside_ul li button span{
+    margin-right: 22px;
+}
+.aside_ul li button{
+    background-color: #785ce9;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.aside_ul li button:hover{
+    color: #785ce9;
+    background-color: white;
+}
+.footer{
+    color: rgba(255, 255, 255, 0.534);
+}
+.carrito_link{
+ display: flex;
+ justify-content: space-evenly;
+}
+.aside_cantidad{
+    margin: 0;
+    font-size: 18px;
+    border-radius: 40%;
+    padding: 5px 10px;
+    background-color: white;
+    color: #785ce9;
+}

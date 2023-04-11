@@ -1,0 +1,12 @@
+*{
+  font-family: 'Rubik', sans-serif;
+}
+body{
+  box-sizing: border-box;
+  background-color: #785ce9;
+  color: white;
+}
+.contenedor{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}

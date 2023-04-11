@@ -1,0 +1,43 @@
+.carrito{
+    color: #785ce9;
+    font-weight: bold;
+}
+
+.carrito_img{
+    width: 80px;
+}
+.carrito_eliminar{
+    background-color: #e2e2e2;
+    color: red;
+}
+.carrito_ropa{
+    font-size: 1.4rem;
+}
+.carrito_cantidad{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.carrito_producto{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #e2e2e2;
+}
+.carrito_vaciar-carrito,
+.carrito_total{
+    background-color: #e2e2e2;
+    color: #785ce9;
+    font-weight: 600;
+}
+.carrito_vaciar-carrito{
+    height: 50px;
+}
+.carrito_contenedor-abajo{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.carrito_comprar{
+    background-color: #785ce9;
+    color: white;
+}
