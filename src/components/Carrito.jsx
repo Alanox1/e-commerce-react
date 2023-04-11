@@ -25,7 +25,6 @@ function Carrito() {
             <div>
                 {data.map((producto) => {
                   return <article key={producto.id} className="carrito_producto">
-                    {/* <img className="carrito_img" src={`../../src/${producto.imagen}`} /> */}
                     <img className="carrito_img" src={`${producto.imagen}`} />
                     <div>
                         <p>Nombre</p>
