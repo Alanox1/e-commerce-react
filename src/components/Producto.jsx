@@ -25,7 +25,7 @@ function Producto({producto}) {
     return (
         <div className="producto_contenedor">
             {/* <img style={{width : "100%", height : "auto"}} src={`../../src/${producto.imagen}`} alt="imagen del producto a vender"/> */}
-             <img style={{width : "100%", height : "auto"}} src={`./public/${producto.imagen}`} alt="imagen del producto a vender"/>
+             <img style={{width : "100%", height : "auto"}} src={`${producto.imagen}`} alt="imagen del producto a vender"/>
             <div className="producto_detalle">
                 <h3 className="producto_titulo">{producto.titulo}</h3>
                 <p className="producto_precio">${producto.precio}</p>
